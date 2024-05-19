@@ -1,0 +1,9 @@
+python -m venv venv
+.\venv\Scripts\activate
+(venv) 
+┖[D:\HFTESTS\LlavaGradioAPI]
+└─Δ python --version
+Python 3.12.1
+
+python.exe -m pip install --upgrade pip
+pip install gradio-client==0.16.0 streamlit==1.34.0 easygui
